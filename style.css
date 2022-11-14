@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #191919;
+  --text-color: #dddddd;
+  --second-color: #e43d40;
+  --df-margin: 10px;
+  --df-padding: 10px;
+  --df-radius: 5px;
+  --df-border: 5px solid var(--second-color);
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--main-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  text-align: center;
+}
+
+.HoursApp {
+  border: var(--df-border);
+  width: 70vw;
+  min-height: 100px;
+  padding: 20px;
+  /* padding-left: 50px; */
+}
+
+.inputAnswer {
+  /* background: #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputAnswer__input {
+  font-size: 3vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--text-color);
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid var(--text-color);
+  padding: 5px 0;
+}
+
+.inputAnswer__next,
+.inputAnswer__button {
+  padding: 5px 30px;
+  margin: 20px 0;
+  font-size: 16px;
+  background: #eb4848;
+  color: var(--text-color);
+  border-radius: 3px;
+  border: 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.inputAnswer__next:hover,
+.inputAnswer__button:hover {
+  padding: 5px 35px;
+  background: #ec5959;
+}
+
+ol {
+  /* list-style-type: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  margin: 10px 0 0;
+}
+
+.number {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+.good {
+  color: rgb(32, 241, 32);
+}
+
+.bad {
+  color: red;
+}
+
+.HourNumber {
+  font-size: 40px;
+}
+
+.midnight {
+  color: rgb(103, 103, 197);
+}
+.half {
+  color: rgb(255, 197, 89);
+}
+.past {
+  color: #f86b6e;
+}
+.to {
+  color: rgb(121, 255, 121);
+}
+.quarter {
+  color: rgb(238, 245, 137);
+}
+.oClock {
+  color: rgb(252, 102, 232);
+}
